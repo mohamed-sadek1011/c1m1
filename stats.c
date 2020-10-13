@@ -9,13 +9,14 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief It is the implementation file which the main function will be written, in addition to all the other functions prototyped in "stats.h"
  *
- * <Add Extended Description Here>
+ * The main code  for this program will be written inside the main() function, all the required functions will be deeclared aswell.
+ * for more details about the program check the file  "README.md"
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Mohamed Sadek
+ * @date Tuesday, October 13,2020 
  *
  */
 
@@ -39,5 +40,41 @@ void main() {
   /* Statistics and Printing Functions Go Here */
 
 }
+
+void print_statistics (unsigned char minimum,unsigned char maximum,unsigned char mean, unsigned char median)
+{
+
+}
+
+void print_array (unsigned char* array_adress,unsigned char array_length)
+{
+
+}
+
+unsigned char find_median (unsigned char* array_adress,unsigned char array_length)
+{
+
+}
+
+unsigned char find_mean (unsigned char* array_adress,unsigned char array_length)
+{
+
+}
+
+unsigned char find_maximum (unsigned char* array_adress,unsigned char array_length)
+{
+
+}
+
+unsigned char find_minimum (unsigned char* array_adress,unsigned char array_length)
+{
+
+}
+
+void sort_array (unsigned char* array_adress,unsigned char array_length)
+{
+
+}
+
 
 /* Add other Implementation File Code Here */

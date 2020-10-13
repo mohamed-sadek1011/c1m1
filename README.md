@@ -9,9 +9,13 @@ This program is designed to:
 
 
 Repository Description:
-@version 1.0
-First Commit: Contains the three basic files provided in the initialized repository.
+@version 2.0
+Second Commit:
+1- All function prototypes and function documentation are added to the header file
+2- All function definitions but with an empty function body are added in the implementation file.
 
 
 @Author Mohamed Gamal Hassan
+
+
  */

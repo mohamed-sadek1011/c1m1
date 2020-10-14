@@ -116,4 +116,17 @@ unsigned char find_minimum (unsigned char* array_adress,unsigned char array_leng
 void sort_array (unsigned char* array_adress,unsigned char array_length);
 
 
-#eidif /* __STATS_H__ */
+/**
+ * @brief A function that swpas the values of two variables
+ *
+ * This function will take the adresses of two variables in memory, and swaps the values of these two variables
+ * This function doesn't return anything
+ *
+ * @param x This is the adress of the frst variable to swap.
+ * @param y This ts the adress of the second variable to swap
+ *
+ * @return No value to return (void)
+ */
+void exchange_two_variables(unsigned char* x, unsigned char* y);
+
+#endif /* __STATS_H__ */
